@@ -87,11 +87,13 @@ body {
 .middle-bar a::after {
   content: " >";
   color: black;
-  margin-left: 20px; 
+  margin-left: 20px;
+}
 
 .middle-bar a:last-child::after {
   content: ""; 
 }
+
 
 /********* Border box container *********/
 .bottom-info-box {
@@ -181,11 +183,13 @@ h3 {
   padding: 40px 60px;
   gap: 60px;
   flex-wrap: wrap; 
+}
 
 .contact-left, .contact-right {
   flex: 1;
   min-width: 300px;
 }
+
 
 .contact-left .red-heading {
   color: black;
